@@ -23,8 +23,12 @@ public class TC_01_LoginToOrange extends BaseClass {
 		Helper.captureScreenshot(driver);
 		
 		logger.pass("Login successful.");
+		
+		
 				
 	}
+	
+
 	
 
 }

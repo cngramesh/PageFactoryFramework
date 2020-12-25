@@ -9,7 +9,7 @@ import utility.Helper;
 public class TC_02_LogOutFromOrange extends BaseClass {
 	
 	@Test
-	public void loginToCRM() 
+	public void logOutCRM() 
 	{
 		logger = report.createTest("Logout from Orange HRM");
 		
@@ -22,7 +22,7 @@ public class TC_02_LogOutFromOrange extends BaseClass {
 		
 		Helper.captureScreenshot(driver);
 		
-		logger.pass("Login successful.");
+		logger.pass("Logout successful.");
 				
 	}
 
